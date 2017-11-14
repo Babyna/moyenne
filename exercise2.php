@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	
+
 	<title></title>
 </head>
 	<body>
@@ -133,6 +133,25 @@
     		
 			?>
 		</div>
+
+		<div>
+			<h3>Les Fonctions</h3>
+			<p>la fonction INCLUDE est optionelle, si le fichier n'esiste pas, PHP affichera une alerte (warning), mais il continuera l'execution du script<br> 
+			La fonction REQUIRE est obligatoire ou necesaire et elle générera une erreur fatale.<br> 
+			Requiere_once<br>
+			Incluide_once<br>
+			</p>
+
+					
+
+
+
+		</div>
+
+
+
+
+
 
 	</body>
 </html>
