@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
+	<meta charset="utf-8">
 	<title></title>
 </head>
 	<body>
@@ -49,12 +48,12 @@
 		</div><br>
 
 		<div>
-			<?php /*
+			<?php 
 			$etudiant = array("Mousa", "Khalid", "Moussa", "Noemi");
-			for($i=0;$i <= count($etudiant); $i++)
+			for($i=0;$i < count($etudiant); $i++)
 			{
 				echo $etudiant[$i]. '<br/>';
-			}*/
+			}
 			?>
 
 		</div>
@@ -133,25 +132,5 @@
     		
 			?>
 		</div>
-
-		<div>
-			<h3>Les Fonctions</h3>
-			<p>la fonction INCLUDE est optionelle, si le fichier n'esiste pas, PHP affichera une alerte (warning), mais il continuera l'execution du script<br> 
-			La fonction REQUIRE est obligatoire ou necesaire et elle générera une erreur fatale.<br> 
-			Requiere_once<br>
-			Incluide_once<br>
-			</p>
-
-					
-
-
-
-		</div>
-
-
-
-
-
-
 	</body>
 </html>
