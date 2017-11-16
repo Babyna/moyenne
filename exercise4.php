@@ -23,6 +23,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="C:\wamp64\www\exercisePhp\exercise4.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<title></title>
 </head>
 
@@ -30,16 +31,16 @@
 
 	<h1>Notes d'admition</h1>
 	<div>
-		<table>
+		<table class="table table-striped" style="width: 400px">
 
-			<caption>Liste des étudiantes général</caption>
+			<caption style="font-size: 1.2em">Liste des étudiantes général</caption>
 
 			<thead>
 				<tr>
-       				<th>Id</th>
-       				<th>Prenom</th>
-       				<th>Nom</th>
-       				<th>Qualification</th>
+       				<th scope="col">Id</th>
+       				<th scope="col">Prenom</th>
+       				<th scope="col">Nom</th>
+       				<th scope="col">Qualification</th>
    				</tr>
    			</thead>
 
@@ -65,16 +66,16 @@
 
 	<div>
 
-		<table>
+		<table class="table table-striped" style="width: 400px">
 
-			<caption>Liste des admis</caption>
+			<caption style="font-size: 1.2em">Liste des admis</caption>
 
 			<thead>
 				<tr>
-       				<th>Id</th>
-       				<th>Prenom</th>
-       				<th>Nom</th>
-       				<th>Qualification</th>
+       				<th scope="col">Id</th>
+       				<th scope="col">Prenom</th>
+       				<th scope="col">Nom</th>
+       				<th scope="col">Qualification</th>
    				</tr>
    			</thead>
 
@@ -123,16 +124,16 @@
 	</div>
 
 	<div>
-		<table>
+		<table class="table table-striped" style="width: 400px">
 
-			<caption>Liste des admis</caption>
+			<caption style="font-size: 1.2em">Liste des admis</caption>
 
 			<thead>
 				<tr>
-       				<th>Id</th>
-       				<th>Prenom</th>
-       				<th>Nom</th>
-       				<th>Qualification</th>
+       				<th scope="col">Id</th>
+       				<th scope="col">Prenom</th>
+       				<th scope="col">Nom</th>
+       				<th scope="col">Qualification</th>
    				</tr>
    			</thead>
 
